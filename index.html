@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Keeper</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="border container w-50 mt-5 text-center p-3">
+    <h3 class="border-bottom pb-4">Ping Pong Score Keeper Game</h3>
+    <h1><span id="p1">0</span>  to <span id="p2">0</span></h1>
+    <p>Use the below button to keep the Score</p>
+    <select name="" id="playto" class="mb-4">
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select><br>
+    <button class="btn btn-success mb-4" id="btn1">+1 Player One</button
+    ><button class="btn btn-primary mb-4" id="btn2">+1 Player Two</button
+    ><button class="btn btn-danger mb-4" id="btn3">Reset</button>
+</div>
+    <script src="./app.js"></script>
+  </body>
+</html>

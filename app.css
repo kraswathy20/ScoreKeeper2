@@ -1,0 +1,9 @@
+#playto{
+    border-radius: 10px;
+}
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
